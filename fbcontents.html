@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .nav_bar {
+            background-color: white;
+            height: 100px;
+            width: 100%;
+            border: solid 5px black;
+        }
+        .nav_btn {
+            float: left;
+            padding: 5px;
+            font-size: 2rem;
+        }
+        #home:hover {
+            background-color: #bbb;
+            cursor: pointer;
+            height: 90%;
+        }
+        #elo:hover {
+            background-color: yellow;
+            cursor: pointer;
+            height: 90%;
+        }
+        #relay:hover {
+            background-color: lightskyblue;
+            cursor: pointer;
+            height: 90%;
+        }
+        #stats:hover {
+            background-color: rgb(240, 70, 70);
+            cursor: pointer;
+            height: 90%;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        #links {
+            font-size: 1.5rem;
+        }
+    </style>
+    <title>WCA Statistics Contents</title>
+</head>
+<body>
+    <div class="nav_bar">
+        <div class="nav_btn" id= "home">
+            <p><a href="/index.html" id="nav_text">Home</a></p>
+        </div>
+        <div class="nav_btn" id="elo">
+            <p><a href="/ELO_Files/elo_tables.html" id="nav_text">ELO Table</a></p>
+        </div>
+        <div class="nav_btn" id="relay">
+            <p><a href="/Relay_Files/relay.html" id="nav_text">Relay Table</a></p>
+        </div>
+        <div class="nav_btn" id="stats">
+            <p><a href="fbcontents.html" id="nav_text">WCA Statistics</a></p>
+        </div>
+    </div>
+    <h2 style="color:rgb(240, 70, 70)">Click on a sentence to view the stat:</h2>
+    <p id="links">
+        <a href="wcafb1.html">Distribution of Optimal 2x2 Solution Lengths by Delegate</a>
+        <br><a href="wcafb2.html">Number of people with an official result in each event</a>
+        <br><a href="wcafb3.html">Longest time holding a world record in a category</a>
+        <br><a href="wcafb4.html">Country Kinch Ranks History</a>
+    </p>
+</body>
+</html>
