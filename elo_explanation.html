@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .nav_bar {
+            background-color: white;
+            height: 100px;
+            width: 100%;
+            border: solid 5px black;
+        }
+        .nav_btn {
+            float: left;
+            padding: 5px;
+            font-size: 2rem;
+        }
+        #home:hover {
+            background-color: #bbb;
+            cursor: pointer;
+            height: 90%;
+        }
+        #elo:hover {
+            background-color: yellow;
+            cursor: pointer;
+            height: 90%;
+        }
+        #relay:hover {
+            background-color: lightskyblue;
+            cursor: pointer;
+            height: 90%;
+        }
+        #stats:hover {
+            background-color: rgb(240, 70, 70);
+            cursor: pointer;
+            height: 90%;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        h1 {
+            text-align: center;
+            background-color: yellow;
+        }
+        table {
+            border:solid 1px black;
+            border-collapse: collapse;
+        }
+        thead {
+            padding: 5px;
+            border:solid 1px black;
+        }
+        th {
+            background-color: lightskyblue;
+            border-right:solid 1px black;
+        }
+        tr:nth-child(even) {
+            background-color: #bbb;
+            
+        }
+        td {
+            border-right:solid 1px black;
+            padding: 2px;
+            text-align: center;
+        }
+        footer {
+            background-color: yellow;
+            font-size: 1.2rem;
+            height: 50px;
+            width: 100%;
+            text-align: center;
+        }
+    </style>
+    <script type="text/javascript" id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+  </script>
+    <title>ELO Rankings Explanation</title>
+</head>
+<body>
+    <div class="nav_bar">
+        <div class="nav_btn" id= "home">
+            <p><a href="/index.html" id="nav_text">Home</a></p>
+        </div>
+        <div class="nav_btn" id="elo">
+            <p><a href="elo_tables.html" id="nav_text">ELO Table</a></p>
+        </div>
+        <div class="nav_btn" id="relay">
+            <p><a href="/Relay_Files/relay.html" id="nav_text">Relay Table</a></p>
+        </div>
+        <div class="nav_btn" id="stats">
+            <p><a href="/FB_Files/fbcontents.html" id="nav_text">WCA Statistics</a></p>
+        </div>
+    </div>
+    <h1>ELO Rankings Explanation</h1>
+    <h2>General Overview</h2>
+    <p>
+        The ELO Ranking System is a way of ranking competitors based on their relative performance. Competitors are awarded and deducted 
+        points based on where they finish relative to other competitors. Unlike traditional ranking systems which give a flat amount 
+        points based on your position. The ELO Ranking System factors in the relative skill of the competitors. 
+        For example finishing above someone with twice as many ELO points will earn you more points than finishing above someone 
+        with half as many ELO points. 
+        
+        <br> This ranking system works well for ranking competitors who have participated in lots of competitions and with competitors 
+        that have a wide range of ELO points. However this system isn't very adaptable so doesn't reflect sudden changes in performance 
+        very well. Fortunately most WCA competitors -and particuarly the top competitors- fit the former scenario.
+    </p>
+    <h2>In Depth</h2>
+    <p>
+        The ELO points are calculated using Python, you can view the source code here: 
+        <a href="https://github.com/ThomasStokes1998/Projects/blob/main/Speed%20Solving%20Analysis/ELO%20Rankings/wca_elo.py">
+            python code</a>. 
+        This is a written version of the code:
+        <h3>Main Algorithm</h3>
+        <ol>
+            <li>For a given competition the algorithm starts by checking the month of the competition. If it is different to the last 
+                stored month, the algorithm multiplies all the positive ELO points by the monthly decay amount (see weights table).
+                Then updates the stored month to the current month.</li>
+            <li>Next retrive all the competition data from the WCA_Results.tsv file</li>
+            <li>Find the index numbers for each event in the competition.</li>
+            <li>For each event find all the rounds for this event at the competition and calculate the ELO weight based on the type of 
+                event (see weights table).</li>
+            <li>For each round, order the round based on position then loop through all the competitors in the round from best to 
+                worst.</li>
+            <li>For a given competitor (from now on referred to as "home") check if they are in the dictionary, if not then create a new
+                entry into the dictionary with a list filled with "-1"
+                <br>(default entry for home's with no official results in an event).
+            </li>
+            <li>Next check if the ELO score for home in this event is -1. If so then change the ELO score to 1000 
+                (default for first time competitors).</li>
+            <li>Loop through all competitors (from now on referred to as "away") below our current competitor in the list and repeat 
+                steps 5 and 6.</li>
+            <li>Calculate the points needed to added and subtracted from home and away respectively (see below for formulae).</li>
+            <li>Add the appropiate points to home and subtract the appropiate points from away. If away's score is negative set it 
+                to zero.</li>
+            <li>Check if home set any national, continental or world records if so add 10, 20 or 50 points respectively.</li>
+            <li>Repeat steps 5-10 for every competitor in the round then repeat steps 4-10 for every round and 3-10 for every event in 
+                the competition.</li>
+            <li>Repeat the above steps for every competition (usually only the ones from the past week).</li>
+        </ol>
+        <h3>ELO Formulae</h3>
+        Home and Away ELO are the updated ELO points for two competitors, \(w\) is the weighting, \(\lambda\) is a scale factor that 
+        ensures the ELO points change my a measured amount, home and away are the current ELO points for the two competitors.
+        <br> Home ELO = \(w\bigg(1 - \frac{1}{1+e^{\lambda(\text{away} - \text{home})}}\bigg)\)
+        <br> Away ELO = \(-w\bigg(1 - \frac{1}{1+e^{\lambda(\text{home} - \text{away})}}\bigg)\)    
+        <table>
+            <thead>
+                <tr>
+                    <th>Weight Type</th>
+                    <th>Weighting</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>Round 1</td><td>10</td></tr>
+                <tr><td>Round 2</td><td>20</td></tr>
+                <tr><td>Round 3</td><td>25</td></tr>
+                <tr><td>Final</td><td>30</td></tr>
+                <tr><td>Other</td><td>20</td></tr>
+                <tr><td>Tournament</td><td>x1.5</td></tr>
+                <tr><td>Worlds</td><td>x2</td></tr>
+                <tr><td>Monthly Decay</td><td>x0.995</td></tr>
+                <tr><td>Lambda</td><td>0.02</td></tr>
+            </tbody>
+        </table>
+    </p>
+    <footer>
+        Last Updated: 11th December 2021.
+    </footer>
+</body>
+</html>
