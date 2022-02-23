@@ -1,0 +1,66 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#exp {
+    text-decoration: underline;
+}
+
+.event_selector {
+    background-color: yellow;
+    float: bottom;
+    border: solid 1px black;
+    height: 50px;
+}
+
+#event-btn {
+    font-size: 1.2rem;
+    padding: 5px;
+    float: left;
+}
+
+#event-btn:hover {
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+    border:solid 1px black;
+    width: 100%;
+}
+
+tr {
+    width: 100%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+th {
+    border-right: 1px solid black;
+}
+
+th:hover {
+    cursor: pointer;
+}
+
+td {
+    border-right: 1px solid black;
+}
+
+tr:nth-child(even) {
+    background-color: #bbb;
+}
+
+tr:hover {
+    background-color: yellow;
+}
+thead {
+    background-color: yellow;
+    padding: 20px;
+    border: solid 1px black;
+}
