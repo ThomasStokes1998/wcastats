@@ -56,6 +56,15 @@ async function toTable(url, id="table-container", maxRows=1001) {
       }
     }
 }
+
+function configTable(event, id="table-container", maxRows=rowMax) {
+  document.getElementById("myTable").remove();
+  toTable(`CSV_Files/bpa_${event}.csv`, id, maxRows);
+  currEvent = event;
+}
+
+let currEvent = '333';
+let rowMax = 20;
 // Credit to https://www.guru99.com/quicksort-in-javascript.html for the Quick Sort algorithm
 
 // Convert a HTML column to a list
