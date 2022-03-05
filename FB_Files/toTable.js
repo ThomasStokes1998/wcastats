@@ -36,7 +36,7 @@ async function toTable(url, name=nameFilter, country=countryFilter, id="table-co
             if (name != "" && !elements[0].includes(name)) {
               addRow = false;
             }
-            else if (country != "" && !elements[1].includes(country)) {
+            else if (elements.length > 1 && country != "" && !elements[1].includes(country)) {
               addRow = false;
             }
             if (addRow){
