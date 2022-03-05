@@ -2,7 +2,6 @@ import pandas as pd
 
 results = pd.read_csv('WCA Database/WCA_export_Results.tsv', delimiter='\t')
 
-
 def main():
     dnfdict = {}
     namedict = {}
