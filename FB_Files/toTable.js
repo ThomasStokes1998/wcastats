@@ -73,7 +73,7 @@ async function toTable(url, name=nameFilter, country=countryFilter, id="table-co
 
 function configTable(event, id="table-container", maxRows=rowMax) {
   document.getElementById("myTable").remove();
-  toTable(`CSV_Files/bpa_${event}.csv`, id, maxRows);
+  toTable(`CSV_Files/bpa_${event}.csv`, name="", country="", id, maxRows);
   currEvent = event;
 }
 
