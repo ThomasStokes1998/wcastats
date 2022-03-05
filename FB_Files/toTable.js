@@ -1,4 +1,4 @@
-async function toTable(url, id="table-container", maxRows=1001) {
+async function toTable(url, name=nameFilter, country=countryFilter, id="table-container", maxRows=1001) {
     let data = await fetch(url);
     let rawData = await data.text();
     let rows = rawData.split("\r\n");
@@ -12,8 +12,11 @@ async function toTable(url, id="table-container", maxRows=1001) {
     let theader = table.createTHead();
     let tbody = table.createTBody();
     tbody.id = "table-body";
-    
-    for (i = 0; i < maxRows; i++) {
+    let rowCounter = 0;
+    for (i = 0; i < rowNum; i++) {
+      if (rowCounter > maxRows) {
+        break;
+      }
         let row  = rows[i];
         let elements = row.split(",");
         // header
@@ -28,10 +31,21 @@ async function toTable(url, id="table-container", maxRows=1001) {
             }
         // body
         } else {
-            let tr = tbody.insertRow();
-            for (j = 0; j < elements.length; j++) {
-                let newCell = tr.insertCell();
-                newCell.appendChild(document.createTextNode(elements[j]));
+            // Check if name and country in row
+            let addRow = true;
+            if (name != "" && !elements[0].includes(name)) {
+              addRow = false;
+            }
+            else if (country != "" && !elements[1].includes(country)) {
+              addRow = false;
+            }
+            if (addRow){
+              let tr = tbody.insertRow();
+              for (j = 0; j < elements.length; j++) {
+                  let newCell = tr.insertCell();
+                  newCell.appendChild(document.createTextNode(elements[j]));
+              }
+              rowCounter++;
             }
         };
     };
@@ -63,8 +77,25 @@ function configTable(event, id="table-container", maxRows=rowMax) {
   currEvent = event;
 }
 
+function setName(url) {
+  input = document.getElementById("nameInput");
+  nameFilter = input.value
+  document.getElementById("myTable").remove();
+  toTable(url, name=nameFilter, country=countryFilter)
+}
+
+function setCountry(url) {
+  input = document.getElementById("countryInput");
+  countryFilter = input.value
+  document.getElementById("myTable").remove();
+  toTable(url, name=nameFilter, country=countryFilter)
+}
+
+
 let currEvent = '333';
 let rowMax = 20;
+let nameFilter = ""
+let countryFilter = ""
 // Credit to https://www.guru99.com/quicksort-in-javascript.html for the Quick Sort algorithm
 
 // Convert a HTML column to a list
