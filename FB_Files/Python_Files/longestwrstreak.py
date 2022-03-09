@@ -6,12 +6,13 @@ results = pd.read_csv('WCA Database/WCA_export_Results.tsv', delimiter='\t')
 competitions = pd.read_csv('WCA Database/WCA_export_Competitions.tsv', delimiter='\t')
 persons = pd.read_csv('WCA Database/WCA_export_Persons.tsv', delimiter='\t')
 
-# WCA Stats longest WR streak but it doesn't reset when broken by another person
+# Longest WR streak but it doesn't reset when broken by another person
+
 wrsingles = results[results.regionalSingleRecord == "WR"].reset_index(drop="index")
 wraverages = results[results.regionalAverageRecord == "WR"].reset_index(drop="index")
 
 
-def comp_date(complist):
+def comp_date(complist: list):
     dates = []
     for c in complist:
         cinfo = competitions[competitions.id == c].reset_index(drop="index")
