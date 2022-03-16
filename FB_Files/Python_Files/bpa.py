@@ -12,11 +12,12 @@ ao5_events = []
 for event in events:
     if event not in exc_events:
         ao5_events.append(event)
-
+        
 def getMaxTime(event: str, place: int=20):
-    x1 = raverage[raverage.eventId == event]
-    x2 = x1[x1.worldRank == place].reset_index(drop="index")
-    return x2.best[0]
+    x = raverage[raverage.eventId == event].reset_index(drop="index")
+    for i, b in enumerate(x.best):
+        if i == place - 1:
+            return b
 
 tenthplace = {event:getMaxTime(event) for event in ao5_events}
 
