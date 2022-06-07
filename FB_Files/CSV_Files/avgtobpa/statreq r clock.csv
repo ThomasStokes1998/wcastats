@@ -1,0 +1,780 @@
+name,avgs,bpas,ratio
+Dmitriy Rogozhnikov (Дмитрий Рогожников),11,2,1.016
+Juuso Suutari,12,6,1.017
+Ryohei Yoshioka (吉岡亮平),11,4,1.017
+Peter Weyers,13,4,1.018
+Jānis Zirnis,11,1,1.02
+Billy Jeffs,12,5,1.022
+Kalina Brzezińska,30,6,1.022
+Marcos Masini,11,2,1.023
+Will Cerne,16,5,1.023
+Jakub Pacewicz,14,4,1.024
+Anders Larsson,12,2,1.024
+Ari Randers-Pehrson,11,3,1.024
+Ilham Fikriya Darmawan,14,2,1.025
+Daniel Ramsden,23,6,1.025
+Nancy Hartman,28,7,1.025
+Caio Hideaki Sato,13,0,1.026
+Fabian Settelen,11,3,1.026
+Mitchell Hum,12,2,1.027
+Andrey Kurochkin,11,5,1.027
+Iván Guerrero Juárez,14,3,1.027
+Konstantin Ushakov,17,2,1.029
+Malte Oliver Bøgh Kjøller,15,1,1.029
+Jens Diewald,14,1,1.029
+José Miguel Lorente Pérez,14,2,1.029
+Yuxuan Wang (王宇轩),12,6,1.029
+Maxim Ilin,22,6,1.03
+David Burany,11,5,1.03
+Yining Yao (姚祎宁),11,3,1.031
+Tom Savage,11,2,1.031
+Noriyuki Okada (岡田典之),17,5,1.031
+Viktor Ejlertsson,13,4,1.031
+Nanda Bhayu Hariyanto,13,2,1.031
+Xiaobin Rui (芮晓彬),16,1,1.032
+Seth Talbot,13,1,1.032
+Renato Stopic,12,2,1.032
+Przemysław Kruczek,29,5,1.033
+Jonatan Kłosko,22,6,1.033
+Santhosh Sabarinathan,12,3,1.033
+Jack Johnston,11,2,1.033
+William Jensen,13,1,1.033
+Jhon Edinson Arias Parra,11,2,1.034
+Klaus Andersen,17,4,1.034
+Yu-Kai Chen (陳宇楷),22,6,1.034
+Henry Savich,17,2,1.035
+Nickalaus Chaney,12,4,1.035
+Michael Röhrer,45,7,1.035
+Shengliang Cai (蔡盛梁),25,3,1.035
+David Lim,24,5,1.035
+Luiz Fellipe Oliuza Leal Silva,11,3,1.035
+Nathan Azaria,21,5,1.035
+Keenan Johnson,22,4,1.035
+Nikolay Golovenko,13,4,1.035
+Sean Cutshaw,11,3,1.035
+Artem Kuminov,13,2,1.035
+Denys Shyshliannykov (Денис Шишлянников),12,3,1.035
+Adithyaa Anand,11,3,1.035
+Samuel Baird,11,3,1.035
+Vincent Hartanto Utomo,32,9,1.036
+Yuxuan Chen (陈雨璇),27,4,1.036
+Artem Melikian (Артем Мелікян),22,4,1.036
+Finn Ickler,25,9,1.036
+Jiahao Deng (邓家豪),23,3,1.036
+Tim Reynolds,60,10,1.036
+Daniel Porter,15,3,1.036
+Zongyang Li (李宗阳),25,5,1.037
+Gilberto Caracciolo Morelli,14,3,1.037
+Knut Skaug Haraldsen,11,3,1.037
+Fabian Löhle,25,3,1.037
+Antoine Perdereau,17,3,1.037
+Eric Zhao,26,6,1.037
+Philippe Lucien,13,2,1.037
+Laura Ohrndorf,123,22,1.037
+Darja Makurina,20,2,1.037
+Ben Whitmore,20,5,1.037
+Alberto Pérez de Rada Fiol,40,7,1.037
+Alrimar Dias Rocha Sobrinho,21,6,1.037
+Akihiro Ishida (石田朗大),12,1,1.037
+Anthony Lafourcade,25,0,1.037
+Ivan Krueger,15,3,1.037
+Ernesto Fernández Regueira,21,2,1.038
+Alex Thielemier,15,3,1.038
+Bhargav Narasimhan,19,2,1.038
+Simone Ohler,37,7,1.038
+Piotr Michał Padlewski,41,4,1.038
+Nikita Loika,41,8,1.038
+Jacob Oliver Bruun,11,2,1.039
+Andres Rodriguez,11,3,1.039
+Mark Boyanowski,13,1,1.039
+Ben Zoller,19,6,1.039
+Paweł Kowol,34,6,1.039
+Eduard Esteban García Domínguez,22,5,1.039
+Michał Krasowski,28,3,1.039
+Mykhailo Lagoida (Михайло Лагойда),12,3,1.039
+Dominik Fürer,11,2,1.039
+Amaia de Pablo,11,2,1.04
+Rok Glinšek,17,4,1.04
+Sergey Novik,19,1,1.04
+Ilkyoo Choi (최일규),34,5,1.04
+Rahul Kulkarni,16,2,1.04
+Yunho Nam (남윤호),12,3,1.04
+Dennis Rosero,39,9,1.04
+Shao-Hua Hu (胡少華),12,3,1.041
+Ben Stokes,23,3,1.041
+Yikuan Kan (阚亦宽),14,2,1.041
+Joel Cetra,14,1,1.041
+Lennon Hughes,12,2,1.041
+Pablo Nicolás Oshiro Mondoñedo,31,8,1.041
+Carsten Matheus,19,6,1.041
+Harry Taylor,12,2,1.041
+Albin Sten,18,0,1.041
+Rasmus Händén,22,5,1.042
+Siddharth Shah,13,3,1.042
+Jayden McNeill,31,3,1.042
+Kamil Zieliński,22,3,1.042
+Javier López Fernández,13,2,1.042
+Tobias Peter,58,13,1.042
+Fyodor Borisov,20,4,1.042
+Cendy Cahyo Rahmat,13,1,1.042
+Noah Paredes,16,3,1.042
+Jessica Lohe,14,3,1.042
+Christopher Cabrera,14,2,1.042
+Linus Frész,21,4,1.042
+Serhii Koksharov (Сергій Кокшаров),12,3,1.042
+Michael Conard,24,6,1.042
+Rami Sbahi,11,0,1.043
+Aneurin Hunt,12,2,1.043
+Renan da Cunha Santos,15,4,1.043
+Kit Clement,92,15,1.043
+Emil Mickein,46,7,1.043
+Tommy Szeliga,29,4,1.043
+Bob Burton,44,6,1.043
+Axel Flordal,16,2,1.043
+Theo Proferes,18,2,1.043
+Kevin Gerhardt,20,0,1.043
+Chun-Chen Chu (朱峻辰),13,0,1.043
+Sébastien Auroux,174,30,1.043
+Szabolcs Balázsi,17,2,1.044
+Artem Yashkov,13,2,1.044
+Liam Wadek,13,2,1.044
+Luis J. Iáñez,36,6,1.044
+Kirill Shalashov,15,1,1.044
+Markus Pirzer,20,4,1.044
+Bence Barát,120,11,1.044
+William Gan Wei Ren (颜伟仁),17,4,1.044
+Mykola Trotsenko (Микола Троценко),15,2,1.044
+Nikolay Vasilyev,11,1,1.044
+Malte Ihlefeld,30,3,1.044
+Shenjie Zhu (朱申杰),24,3,1.044
+Christopher Olson,18,4,1.044
+Diego Iglesias Godoy,17,1,1.044
+Kevin Guillaumond,13,4,1.044
+Paweł Duraj,19,5,1.044
+Vasily Stasyev,28,5,1.045
+Aldo José Gramajo de León,14,2,1.045
+Sheldon Rego,21,2,1.045
+Lauren Phung,15,1,1.045
+Hubert Hanusiak,51,6,1.045
+Tzu-Han Hung (洪梓菡),11,1,1.045
+Marcin Stachura,25,3,1.045
+Gunnar Krig,26,2,1.045
+Thompson Clarke,22,5,1.045
+Ng Jia Quan (黄佳铨),18,3,1.045
+Lisa Kucala,16,3,1.045
+Gábor Szabó,26,6,1.045
+Vladimir Korovin,12,2,1.045
+Mok Man Kit (莫文傑),38,8,1.045
+Hampus Hellqvist,16,1,1.045
+Lucas Nieuwland,26,4,1.045
+Jules Desjardin,14,3,1.045
+Antoine Cantin,24,4,1.045
+Dawid Wójcik,12,1,1.045
+Shao-Heng Hung (洪紹恆),53,6,1.045
+Jason White,19,3,1.045
+Matthew Prestwich,39,4,1.045
+Oleksandr Lutsiuk (Олександр Луцюк),12,0,1.045
+Tibor Jerry Praas,12,2,1.045
+Kacper Paweł Dworak,35,6,1.046
+Kristin Wiley,20,3,1.046
+Geert Bicler,24,5,1.046
+Eason Siew Ee Son (蕭奕晨),38,9,1.046
+Charlie Cooper,15,4,1.046
+Petra Vogrinec,13,0,1.046
+Liudi Sun (孙柳笛),40,3,1.046
+Anish Rajesh,15,4,1.046
+Callum James Goodyear,52,10,1.046
+Amelie Dieterich,22,1,1.046
+Rafał Studnicki,31,4,1.046
+Matteo Dummar,23,6,1.046
+Marcin Jakubowski,84,10,1.046
+Thomas Schmidt,47,6,1.046
+Clément Cherblanc,49,9,1.046
+Elijah Brown,17,2,1.046
+Federico da Fonseca,16,2,1.046
+AJ Blair,20,3,1.046
+Jernej Omulec,27,8,1.046
+Yu Sajima (佐島優),23,2,1.046
+Pedro Luis Muñoz Yañez,11,3,1.046
+Bertie Longden,18,1,1.046
+Wojciech Włodarczyk,25,1,1.047
+Hubert Firek,25,3,1.047
+Quentin Lefebvre,18,1,1.047
+Sandeep Rajaram,11,3,1.047
+Raymond Goslow,68,8,1.047
+Jonathan Collins,11,1,1.047
+Andy Denney,12,3,1.047
+Henrik Buus Aagaard,35,5,1.047
+Darren Siew Ee Yaang (蕭奕暘),43,4,1.047
+Peter Preston,12,3,1.047
+Fedor Abaev,18,2,1.047
+Wilhelm Kilders,61,10,1.047
+Daniel Gracia Ortiz,26,4,1.047
+Jacob Fanikos,21,4,1.047
+Szymon Malinowski,11,1,1.048
+Yuji Yoshida,19,3,1.048
+Viktor Zenk,21,2,1.048
+Michael Kristel,54,9,1.048
+Brendan Bakker,11,1,1.048
+Govend Avgerinos Djangoi,24,3,1.048
+Danylo Harbar (Данило Гарбар),11,1,1.048
+Alexey Gundin (Алексей Гундин),21,3,1.048
+Daniil Starodubtsev (Даніїл Стародубцев),18,3,1.048
+Matic Omulec,30,3,1.048
+Viktor Kalmar,12,1,1.048
+Philippe Virouleau,12,1,1.048
+Hunor Bózsing,55,9,1.048
+Siew Hann Wen (蕭漢文),34,5,1.048
+Nicolas Perez,12,2,1.048
+Ernest Eh Zhong Yu,14,3,1.048
+Keunsoo Heo (허근수),13,2,1.048
+Jaime Botello García,13,1,1.048
+Pedro Santos Guimarães,32,5,1.048
+Nathan Dwyer,37,5,1.049
+Xingkai Yin (尹星凯),16,1,1.049
+Conor Cronin,29,6,1.049
+Przemysław Rogalski,139,19,1.049
+Wojciech Szatanowski,80,6,1.049
+Kian Barry,16,3,1.049
+James Golding,12,1,1.049
+Takuma Shirahase (白波瀬拓磨),12,2,1.049
+Lucas Déglise,14,4,1.049
+Alexander Karlov,11,2,1.049
+Chen Kang (亢晨),17,5,1.049
+Georgiy Titov (Георгій Тітов),21,1,1.049
+Rémi Esturoune,16,3,1.049
+Fabian Auroux,17,2,1.049
+Kate Grahame,11,3,1.049
+Jan Bentlage,150,16,1.049
+Jakob Kogler,22,4,1.049
+John Albright,24,4,1.049
+Tyler Robinson,12,1,1.049
+Bill Hammill,36,3,1.049
+Oliver Fritz,15,2,1.049
+Mike Hughey,22,2,1.049
+Katie Hull,125,17,1.049
+Jesús Masanet García,107,17,1.049
+Saransh Tandon,21,2,1.049
+Raúl Serrano Martínez,11,3,1.05
+Jacky Koo Chun Ki (顧俊祺),16,3,1.05
+Carson Claud,76,18,1.05
+Juan David Carmona Vásquez,21,4,1.05
+Kyra Joiner,39,3,1.05
+Fumiki Koseki (古関章記),18,3,1.05
+Stefan Pochmann,19,2,1.05
+Mariia Mazel (Марія Мазел),15,2,1.05
+Maksymilian Majcher,20,2,1.05
+Paul Galioto,16,3,1.05
+Habin Kim (김하빈),12,1,1.05
+Aniket Das,20,3,1.05
+José Garrido,15,5,1.05
+Felipe Cardim,15,2,1.05
+Theo Goluboff,17,3,1.05
+Chan Hay Yin (陳希言),12,1,1.05
+José Leonardo Chaparro Prieto,27,3,1.05
+Alexander Katyukov (Александр Катюков),43,4,1.051
+Junru Wang (王珺儒),27,4,1.051
+Gonzalo Orellana Barrasa,18,5,1.051
+Daniel Guardado Cabral,23,1,1.051
+Aharon Campoli Tono,16,3,1.051
+Yepeng Sun (孙叶芃),26,4,1.051
+Sanio Kasumovic,46,9,1.051
+Niki Placskó,90,7,1.051
+Jinhao Zheng (郑金昊),14,2,1.051
+Konstantin Solovev (Константин Соловьёв),30,5,1.051
+Branko Kobal,12,2,1.051
+Firstian Fushada (符逢城),16,2,1.051
+Karol Zakrzewski,35,3,1.051
+Muhammad Syahmi,24,2,1.051
+Jaume Martínez Vanaclocha,11,1,1.051
+Gabriel Lincon Souza,17,3,1.051
+Simone Santarsiero,32,4,1.051
+Martin Vædele Egdal,46,7,1.051
+Kush Girap,14,2,1.051
+Sergi Sabat,15,3,1.052
+Raffael Ort,11,1,1.052
+Eli Parker,19,3,1.052
+Hanwen Mao (毛翰文),30,4,1.052
+Fabio Bini Graciose,88,18,1.052
+Simon Kelly,11,0,1.052
+Simon Westlund,34,8,1.052
+Joey Stahl,12,0,1.052
+Dongzhe Li (李东哲),20,5,1.052
+Dániel Varga,79,14,1.052
+Matěj Mužátko,30,2,1.052
+Jiankun Shi (石建坤),17,4,1.052
+Paul Mahvi,20,2,1.052
+Joshua Feran,127,13,1.052
+Szymon Grodzki,18,4,1.052
+Abhimanyu Singhal,21,4,1.052
+Niko Ronkainen,114,10,1.052
+Jakub Hibszer,13,1,1.053
+Josias Milan Sirpa Pinto,11,1,1.053
+Vladislav Kozhin,23,4,1.053
+Sukant Koul,18,2,1.053
+Christian Smedegaard,13,1,1.053
+Lev Golub (Лев Голуб),54,11,1.053
+Logan McGraw,30,3,1.053
+Vilius Ribinskas,26,2,1.053
+Daniel Wannamaker,35,6,1.053
+Alwin Rölz,47,12,1.053
+Wang Junwen (王俊文),25,3,1.053
+Ting Sheng Bao Yang,53,4,1.053
+Braden Richards,19,4,1.053
+Stepan Tsarev,15,1,1.053
+Radomił Baran,25,3,1.053
+James Molloy,121,11,1.053
+Nestor Sokhan,25,5,1.053
+Marcus Kamen,26,2,1.053
+Anant Pingle,15,4,1.054
+Blake Thompson,27,8,1.054
+Chung Tze Yang (鍾志扬),13,1,1.054
+Daniel Vædele Egdal,51,5,1.054
+Luis Kleinheinz,21,1,1.054
+Jesús Lindo García,21,1,1.054
+Joshua Marriott,14,0,1.055
+Stephen Griggs,46,4,1.055
+Oleksandr Seniuk (Олександр Сенюк),19,4,1.055
+David Arzamastsev,12,1,1.055
+Guido Dipietro,12,0,1.055
+Ewa Wójcik,12,0,1.055
+Diego Alejandro Casas Jimenez,18,5,1.055
+Helmer Ewert,24,4,1.055
+David Woner,26,5,1.055
+Wojciech Rogoziński,12,2,1.055
+Niklas Spies,19,4,1.055
+Ryan Jones,17,1,1.055
+Brian Johnson,30,6,1.055
+Hung Lo (羅鴻),36,5,1.055
+Louis Cormier,27,3,1.055
+Marco Rota,17,5,1.055
+Michał Halczuk,37,8,1.055
+Tyler Brodzinski,16,1,1.055
+Ihor Bilchenko (Ігор Більченко),38,5,1.055
+Chris Mills,28,2,1.055
+Daniel Sheppard,109,10,1.055
+Joris Mühlsteff,16,2,1.055
+Justin Jaffray,11,1,1.055
+Wojciech Knott,101,16,1.055
+Bartłomiej Owczarek,30,3,1.056
+Denys Haidaichuk,11,0,1.056
+Yan Zheng (郑岩),19,5,1.056
+Magdalena Pabisz,34,7,1.056
+Anatoly Kim,15,1,1.056
+Nicolas Gertner,24,3,1.056
+Zijia Feng (冯子甲),84,10,1.056
+Mitchell Lane,32,3,1.056
+Francisco Moraes Mandalozzo,11,0,1.056
+Gaël Dusser,37,6,1.056
+Deni Mintsaev (Дени Минцаев),12,2,1.056
+Chan Tak Chuen (陳德泉),47,8,1.056
+Dmitry Kryuzban,57,8,1.056
+Stefan Lidström,11,0,1.056
+Andrew Coghill,24,4,1.056
+Maicol Ramos,15,2,1.056
+Luca Rizzi,13,1,1.056
+Aedan Bryant,38,5,1.056
+Tripp Peters,12,1,1.056
+Patrick Drew Dwyer,13,2,1.056
+Carter Bitz,12,1,1.056
+Sam Shaw,39,5,1.056
+Jure Gregorc,34,3,1.056
+Ian Gilham,12,2,1.057
+Marek Padlewski,21,1,1.057
+Daniel Mullen,86,10,1.057
+Chad Harris,38,4,1.057
+Ethan Pride,15,0,1.057
+Sam Zhixiao Wang (王志骁),13,2,1.057
+Hannah Minas,34,5,1.057
+Chenwei Li (李琛炜),73,10,1.057
+Jakub Hamkało,31,4,1.057
+Arnaud van Galen,62,5,1.057
+David Stiven Benitez Guerra,19,3,1.057
+Rachel Feran,77,14,1.057
+Clay Moore,32,5,1.057
+Santeri Laine,24,3,1.057
+Miklós Mohos,13,2,1.057
+Mattia Furlan,19,3,1.057
+Ryan Jew,45,6,1.058
+Ardianto Satriawan,14,3,1.058
+Serafima Petrova (Серафима Петрова),12,1,1.058
+Nikolas Márkus,14,2,1.058
+Zachary Ochs,55,8,1.058
+John Edison Ubaldo (ᜇ᜔ᜌᜓ︀ᜈ᜔ ᜁᜇᜒᜐᜓ︀ᜈ᜔ ᜂᜊᜎ᜔ᜇᜓ︀),18,3,1.058
+Radosław Opoka,31,9,1.058
+Matthew Dickman,33,4,1.058
+Chris Martin,32,6,1.058
+Daniel Rivas,16,4,1.058
+Jade Durenne,11,1,1.058
+Marcus Moberg,27,4,1.058
+Ryan DeLine,64,6,1.058
+Yinghao Wang (王鹰豪),48,9,1.058
+Chris Wall,27,6,1.059
+Dominika Warchoł,14,4,1.059
+Cyrus Wong Yuk Chi (黃昱誌),14,1,1.059
+Fabio Schwandt,45,7,1.059
+Tairan Zhong (钟泰然),63,7,1.059
+Reto Bubendorf,35,4,1.059
+Andrew Karbusicky,18,2,1.059
+Heron Sato,11,0,1.059
+Chunyu Zhang (张春雨),21,2,1.059
+Alex Kekkonen,18,2,1.059
+Natthaphat Mahtani (ณัฐภัทร จี มาทานี),11,2,1.059
+Michał Mlostek,50,3,1.059
+Chloe Lee Synn Yii,11,3,1.059
+Robbie Villarica,26,3,1.059
+Raúl Ramos,13,2,1.06
+Jared Stinson,31,5,1.06
+David Beugnon,39,5,1.06
+Hippolyte Moreau,30,8,1.06
+Daniel Chudecki,13,1,1.06
+Prin Kijviwattanakarn (ปริญ กิจวิวัฒนการ),17,2,1.06
+Zeke Mackay,21,2,1.06
+Silas Starling,54,6,1.06
+Christian König,12,4,1.06
+Charlie Stark,61,8,1.06
+James Hildreth,62,10,1.06
+Alejandro Riveiro Rodríguez,20,4,1.06
+Mihai Căpăţinescu,12,2,1.06
+Rasmus Stub Detlefsen,21,4,1.061
+Adrián Martínez Macías,16,4,1.061
+Fyodor Ivanov,19,2,1.061
+Rodrigo Zarate,14,3,1.061
+Tianping Ding (丁天平),24,6,1.061
+Jan van Dorst,11,1,1.061
+Alexey Yarygin,18,2,1.061
+Guus de Wit,17,1,1.061
+Volodymyr Korol (Володимир Король),22,5,1.061
+Jingyuan Chen (陈静远),16,2,1.061
+Clément Gallet,60,11,1.061
+Hassan Khanani,20,2,1.061
+Greg Austin,14,0,1.061
+Arttu Puttonen,23,3,1.061
+Marek Wójtowicz,18,2,1.061
+Alexis Rodrigo Cazu Mendoza,22,5,1.061
+Max Siauw,29,3,1.061
+Harry Savage,35,3,1.061
+Xinan He (何栖楠),23,1,1.061
+Zhiyuan Ma (马之元),16,5,1.061
+Boxi Chen (陈博希),30,2,1.061
+Evan Liu,111,15,1.061
+Andrey Che,14,0,1.061
+Stanley Chapel,56,6,1.061
+Timo Norrkniivilä,41,4,1.061
+Ryouga Hayashi (林竜河),22,3,1.061
+Nikita Kovalchuk (Нікіта Ковальчук),23,5,1.061
+Andrew C. Hooke,15,4,1.061
+Bartosz Pawlik,12,3,1.062
+Juho Arjanne,40,6,1.062
+AJ Kamal,17,3,1.062
+Ivan Zabrodin,43,2,1.062
+Shlok Mongia,12,1,1.062
+Raúl Sancho Molinero,16,2,1.062
+Karol Piskorek,19,0,1.062
+Ryan Vall,11,3,1.062
+Wojciech Barciaga,20,3,1.062
+Michael Gottlieb,11,3,1.062
+Brady Metherall,11,0,1.062
+Lars Vandenbergh,48,5,1.062
+Tomáš Novotný,16,2,1.062
+Jeff Stinson,23,3,1.062
+Aryan Sehgal,16,2,1.062
+Yi-Fan Wu (吳亦凡),29,4,1.062
+Adam Chodyniecki,16,3,1.062
+Piotr Tokarski,51,5,1.063
+Patrycja Michalska,43,6,1.063
+Ryan Wu,14,2,1.063
+Zhengjun Lin (林正俊),12,2,1.063
+Joel Lundström,12,3,1.063
+Łukasz Dubicki,15,1,1.063
+Ainesh Sevellaraja,33,3,1.063
+Leovigildo Sánchez Casado,14,3,1.063
+Xiangjie Li (李祥杰),21,4,1.063
+Will Belote,17,2,1.063
+Benjamin Gottschalk,37,4,1.063
+Tomi Ronkainen,51,9,1.063
+Sean Hartman,49,6,1.064
+Sean Skinner,11,0,1.064
+Laura Holzhauer,28,7,1.064
+Farid Mikhailov,16,4,1.064
+Manfred Siew Ee Sheng (蕭奕晟),47,5,1.064
+Erik Akkersdijk,51,7,1.064
+Ilya Nazarov,13,2,1.064
+Damian Wilding,15,0,1.064
+Arkadiusz Abramowski,18,1,1.064
+Kerry Creech,44,5,1.064
+Robert Yau,83,11,1.064
+Kieran Dizon,28,0,1.064
+Dmitry Aniskin,19,1,1.064
+Zachary White,25,6,1.064
+Brody Schoon,14,0,1.064
+Lincheng Cai (蔡林成),29,2,1.064
+Ryuji Hamano (浜野竜二),28,5,1.064
+Nathaniel Berg,71,10,1.064
+Zhao-Zhe Zhong (鍾肇哲),49,3,1.064
+John Paul Custodio,18,3,1.064
+Jacob Ambrose,155,19,1.064
+Rodrigo Ugarte,14,1,1.064
+Sergey Chirin,17,4,1.064
+Sheng Cao (曹晟),18,3,1.064
+Ilya Tsiareshka,116,16,1.064
+Owen Widdis,17,3,1.065
+Jacob Chambers,38,8,1.065
+Eemil Lahti,30,3,1.065
+Krystian Załuski,14,0,1.065
+Olivér Perge,115,13,1.065
+Han Wu (吳翰),13,0,1.065
+Marcel Nycz,30,5,1.065
+Cale Schoon,31,4,1.065
+Carlos Méndez García-Barroso,31,4,1.065
+Wilson Alvis (陈智胜),21,4,1.065
+Ronald Mansveld,18,4,1.065
+Shun-Hsin Chang (張舜欣),41,3,1.065
+Vicenzo Guerino Cecchini,20,2,1.066
+Callum Hales-Jepp,110,9,1.066
+Sam Spendla,50,2,1.066
+Alexander Olleta del Molino,25,2,1.066
+Ho Hsieh (謝合),12,2,1.066
+Maxim Brednev (Максим Бреднев),13,1,1.066
+Eva Kato,12,4,1.066
+Bautista Bonazzola,12,2,1.066
+Javier Tirado Ortiz,92,12,1.066
+Livia Kleiner,33,1,1.066
+Lovisa Eriksson,14,1,1.066
+Mason Langenderfer,40,3,1.066
+Akash Rupela,19,6,1.066
+Chia-Leo Lin (林珈樂),36,3,1.066
+Simon Kellum,30,4,1.067
+Pau Vela García,56,9,1.067
+Mateusz Kotwica,37,7,1.067
+Suen Ming Chi (孫銘志),11,1,1.067
+Luke Garrett,32,3,1.067
+Anton Savushkin,19,3,1.067
+Nicolás Shwkyng Monroy,14,3,1.067
+Jami Viljanen,16,0,1.067
+Ron van Bruchem,22,4,1.067
+Lee Jia Yong (李伽榮),12,2,1.067
+Maarten Smit,31,5,1.067
+Urho Kinnunen,11,1,1.067
+Dalton Padgett,52,4,1.068
+Young He (何嘉炀),50,8,1.068
+Oliver Castledine,12,1,1.068
+Christopher Morris,27,1,1.068
+Corey Sakowski,40,6,1.068
+Steven Kearns,27,2,1.068
+Dominic Lumsden,13,1,1.068
+Walker Welch,133,17,1.068
+Łukasz Burliga,30,7,1.068
+Thomas Sonnenberg Jarner,15,2,1.068
+Marcin Popławski,13,3,1.068
+Cristian Ezequiel Vega,13,1,1.068
+Christopher Chi,21,1,1.068
+Myles Jarman,22,1,1.068
+Pavel Yushkevich,23,4,1.069
+Lakshmi Sai Srivatsa,12,1,1.069
+Siddhi Venkatesh,18,4,1.069
+Michael (謝富亦),19,2,1.069
+Linxiao Xu (徐林霄),11,0,1.069
+Yunhao Lou (娄云皓),39,4,1.069
+Elvin Thorsen,36,5,1.069
+Wong Chong Wen (黄崇文),30,2,1.069
+Daniel Wallin,106,9,1.069
+Oleg Gritsenko,32,5,1.069
+Owidiusz Pryk,35,3,1.069
+Leandro Vasconcellos Alleoni,12,0,1.069
+Lucas Wesche,17,4,1.069
+Alessandro Nicolì,15,3,1.069
+James Gonsalves,11,1,1.069
+Aliaksei Anisimau,11,4,1.07
+Gavin Nelson,11,2,1.07
+Agnes Maxelino,11,1,1.07
+Sean Moran,12,1,1.07
+Ming Zheng (郑鸣),36,3,1.07
+Anders Berggren,37,5,1.07
+Naren Ramesh,11,3,1.07
+Shivam Bansal,44,8,1.07
+Devin Corr-Robinett,12,1,1.07
+Jurgens Filiaggi,30,4,1.07
+Jack Pfeifer,16,3,1.07
+Igor Tarasov,13,2,1.071
+Calvin Nielson,28,2,1.071
+Milán Baticz,22,2,1.071
+Yunke Zhang (张云柯),20,1,1.071
+Muhammad Arsyad Maulana,14,0,1.071
+Riadi Arsandi,16,3,1.072
+Ryan Michael Breen,13,1,1.072
+Yunqi Ouyang (欧阳韵奇),45,4,1.072
+Linus Laurén,32,4,1.072
+Aleksander Arefiew,11,1,1.072
+Piotr Trząski,12,2,1.072
+Mary Hennessy,11,1,1.072
+Kai Jiptner,11,2,1.072
+David Adams,15,2,1.072
+Bobby D'Angelo,14,2,1.073
+Joonas Silvennoinen,54,7,1.073
+Rustam Valeev,13,1,1.073
+Jialin Zhou,11,4,1.073
+Nathan Popov,11,0,1.073
+Elizaveta Ermolkina,13,2,1.073
+Yunliang Zhang (张赟量),16,3,1.073
+Sameer Aggarwal,13,2,1.073
+Olli Vikstedt,33,4,1.073
+Andre Febriato Jonathan,18,2,1.073
+Timothy Sun,13,0,1.073
+Tim Wong,12,2,1.073
+Noah Swor,21,0,1.074
+Tristan Wright,16,1,1.074
+Piotr Olszewski,45,7,1.074
+Stephano Saucedo Reyes,11,2,1.074
+Katie Davies,18,1,1.074
+Jinseo Hong,11,1,1.074
+Nicolas Schmied,15,1,1.074
+Jakob Gunnarsson,27,1,1.074
+Lee Chiang (蔣礪),20,1,1.074
+Junyan Wu (吴俊彦),11,0,1.074
+Brandon Mikel,55,8,1.074
+Kim Jokinen,24,1,1.074
+Mateusz Szwugier,26,5,1.075
+Pavlo Bondar (Павло Бондар),20,1,1.075
+Carter Kucala,61,7,1.075
+Bartłomiej Lewandowski,26,1,1.075
+Lim Hung (林弘),35,7,1.075
+Antto Pitkänen,17,0,1.075
+Destin Shulfer,14,0,1.075
+Edward Vakula,16,1,1.075
+Daniel Karnaukh,18,3,1.075
+Andreas Lambropoulos,15,0,1.075
+Robin Hagner,19,3,1.075
+Ernie Pulchny,19,1,1.076
+Mateusz Szulik,14,2,1.076
+Antonie Paterakis,18,4,1.076
+Oscar Alberto Ceballos Contreras,31,3,1.076
+Oliver Wheat,21,3,1.076
+Noah Diamond,14,2,1.076
+Henri Gerber,44,6,1.076
+Laura Tarrés Gimeno,11,1,1.076
+Pierre Bouvier,31,3,1.077
+Saiyam Jain,17,0,1.077
+Albert Quiñones,23,1,1.077
+Lauren Klemz,26,3,1.077
+Serhii Hoiuk (Сергій Гоюк),12,0,1.077
+Nikhil Soares,27,3,1.077
+Vladislav Pyatnitsa (Владислав Пятница),17,1,1.077
+Oscar Nieto,13,1,1.078
+Tim Rinehart,16,2,1.078
+Zayn Khanani,11,0,1.078
+Mattheo de Wit,13,2,1.078
+Dan Selzer,17,3,1.078
+Rustin Haderlie,11,1,1.078
+Marcos Ameijeiras Moreno,26,3,1.078
+Jake Buckley,14,0,1.078
+Seán O'Toole,12,0,1.079
+Leow Yi Jun (廖艺畯),15,2,1.079
+Christophe Grosjean,11,2,1.079
+Riley Woo,19,2,1.079
+Javier París,22,1,1.079
+Laetitia Lemoine,13,0,1.08
+Dennis Strehlau,11,0,1.08
+Máté Horváth,11,2,1.08
+Markko Eduardo Rivera Hernández,13,1,1.08
+Allyson Dias de Lima,24,2,1.08
+Samuli Laine,11,0,1.08
+Krzysztof Bober,18,3,1.08
+Rui-Jun Liu (劉睿鈞),16,1,1.08
+Manuel Prieto de Antón,33,1,1.08
+Dominik Vidaković,15,2,1.081
+Achmad Rizki Zakaria,12,0,1.081
+Kennan LeJeune,17,1,1.081
+Vishwa Sankar,37,3,1.081
+Joseph Daniel Blas Sanchez,18,2,1.081
+Benjamin Grzesiak,12,0,1.081
+Kari Hyttinen,14,1,1.082
+Diana Murnik,14,4,1.082
+Erwan Kohler,17,1,1.082
+Eli Jay,44,3,1.082
+Dmitry Gundin,37,6,1.082
+Mikhail Kuzin,18,2,1.083
+Lorenzo Vigani Poli,14,2,1.083
+Yuhei Takagi (高木佑平),11,1,1.083
+Jakub Bartos,20,3,1.083
+Chia-Wei Lu (呂家維),11,1,1.083
+Vladyslav Zhydkov (Владислав Жидков),27,2,1.083
+Somya Srivastava,31,6,1.084
+Tommy Cherry,33,6,1.084
+AJ Nicholls,45,10,1.084
+Barnabás Turi,17,3,1.085
+Linus Kunath,15,2,1.085
+Péter Trombitás,14,0,1.085
+Filippo Brancaleoni,20,2,1.085
+Arifumi Fushimi (伏見有史),11,2,1.086
+Roman Ostapenko (Роман Остапенко),17,2,1.086
+David Breno,17,2,1.086
+Cristian Alberto Rivas Rivas,15,3,1.086
+Leonid Palchenko (Леонід Пальченко),19,2,1.086
+Mykhailo Akhunov (Михайло Ахунов),20,4,1.086
+Ian Southa,14,2,1.086
+Tommaso Raposio,13,2,1.087
+Mats Valk,13,3,1.087
+Isaac Myers,21,2,1.087
+Hanlin Ding (丁瀚林),17,1,1.087
+Qiyu Hou (侯启予),36,4,1.087
+Tristan Chua Yong,12,2,1.087
+Kristian Gil Caragan,12,1,1.088
+Kymberlyn Calderon,15,3,1.088
+Oleksandr Ivanchak (Олександр Іванчак),42,2,1.088
+Magnus Søndergaard Byrne,15,4,1.089
+Nicolás Sánchez,26,2,1.089
+Saravanan Gowthaman,17,4,1.089
+Jose Angel Montesa Solaz,14,2,1.089
+Tiffany Soh (蘇明珠),27,3,1.089
+Luigi Soriano,20,3,1.089
+Vladislav Kaminskiy,22,5,1.09
+Alvar Nylén,12,1,1.09
+Kirby Jay Caragan,11,0,1.09
+Dan Cohen,28,4,1.091
+Arnau Tous Mateu,11,2,1.091
+Ziyue Wu (吴子玥),12,1,1.091
+Zachary Garber,32,5,1.093
+Jacob Sanchez,16,2,1.093
+Chengxiang Cui (崔程翔),15,4,1.093
+Jared Balassaitis,16,3,1.094
+Stephen Adhisaputra,14,1,1.094
+Alexei Sinyavin,11,1,1.094
+Tyler Howlett,18,0,1.095
+Konstantin Jaehne,27,2,1.095
+Tobias Droste,11,1,1.095
+Theo Mayer,22,4,1.096
+Kyler Smith,11,2,1.096
+Chia-Liang Tai (戴嘉良),31,4,1.097
+Mathieu Hudon,11,0,1.097
+Mohammed Aiman Koli,18,1,1.097
+Sydney Weaver,11,2,1.098
+Christian Schiøtt,11,1,1.098
+Alaik Bhatia,17,3,1.099
+Travis Burkett,12,0,1.099
+Ryan Pilat,11,2,1.1
+Jesper Frisk,11,2,1.101
+Cady Shields,35,2,1.101
+CJ Sheng,25,5,1.102
+James Quinn,16,3,1.103
+Pablo Say,19,3,1.103
+Andreas Pohl,16,4,1.103
+Luke Heath-Edwards,13,0,1.104
+Michael Young,14,1,1.104
+Jonathan Charlesworth,11,0,1.105
+Lucas Garron,25,3,1.106
+Antoni Rumowski,13,1,1.108
+François Courtès,66,8,1.108
+Daniel Rose-Levine,20,1,1.109
+Bradley Sampson,14,1,1.111
+Joe Ewbank,11,1,1.114
+Daniel Yakhkind (Даніель Яхкінд),18,3,1.117
+Yevhen Bondarenko (Євген Бондаренко),16,3,1.118
+Alexandros Efremidis,15,1,1.119
+Pessi Ansaranta,19,2,1.12
+Ivo Bakker,14,1,1.123
+Jackey Zheng,12,1,1.126
+Franciszek Fidos,20,1,1.13
+Luke Hubbard,22,1,1.138
+Reinier Schippers,11,0,1.159
+John Brechon,48,6,1.199
